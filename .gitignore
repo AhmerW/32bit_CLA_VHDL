@@ -1,0 +1,17 @@
+# VHDL/FPGA synthesis and simulation files
+*.vcd
+*.ghw
+*.wlf
+*.wdb
+*.jou
+*.log
+*.zip
+*.bit
+*.bin
+*.xpr
+*.cache
+*.ip_user_files
+*.srcs
+*.runs
+*.sim
+*~
