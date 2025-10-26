@@ -27,7 +27,7 @@ The design was verified using the `tb_cla_top.vhd` testbench. This testbench is 
 ### Waveform
 The following waveform illustrates the overflow test case, where `a = 0xFFFFFFFF`, `b = 0x00000001`, and `cin = '0'`. The result correctly shows `sum = 0x00000000` and `cout = '1'`.
 
-![Simulation Waveform](doc/cla_waveform.png)
+![Simulation Waveform](doc/waveform.png)
 
 ## Potential Improvements
 * **Synthesis and Implementation:** The next logical step for this project is to synthesize the design for a target FPGA device (e.g., a Xilinx Artix-7 or Intel Cyclone V). This process would provide key metrics on hardware resource utilization (LUTs, FFs) and timing performance (maximum operating frequency).
